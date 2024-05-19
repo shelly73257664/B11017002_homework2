@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="8dp">
-
+    <!-- 添加长方形照片 -->
     <ImageView
         android:id="@+id/placeImage"
         android:layout_width="60dp"
@@ -14,15 +15,16 @@
 
     <TextView
         android:id="@+id/placeName"
-        android:layout_width="60dp"
+        android:layout_width="180dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="8dp"
-        android:textSize="20sp" />
+        android:layout_marginEnd="10dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"/>
 
     <Button
         android:id="@+id/placeButton"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="→Detail" />
+        android:text="Detail" />
 
 </LinearLayout>

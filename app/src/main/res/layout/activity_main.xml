@@ -11,12 +11,4 @@
         android:clipToPadding="false"
         android:padding="8dp" />
 
-    <Button
-        android:id="@+id/placeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="viewPlaceDetails"
-        android:layout_margin="300dp"
-        android:text="Details" />
-
 </RelativeLayout>
