@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--返回按鈕-->
+    <!--返回按鈕和打開地圖按鈕-->
 
     <ImageView
         android:id="@+id/placeImage"
@@ -29,7 +29,7 @@
         android:layout_marginTop="35dp"
         android:text="Back" />
 
-    <!-- activity_place_detail.xml -->
+    <!--打開 google map -->
     <Button
         android:id="@+id/openMapButton"
         android:layout_width="wrap_content"
